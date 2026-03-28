@@ -1,0 +1,12 @@
+# OpenClaw 基础配置
+device_id: "my_desktop_agent_01"
+local_ai_endpoint: "http://localhost:11434" # 默认指向本地 Ollama 接口
+
+# 目标表格配置 (Notion 示例)
+notion:
+  token: "your_notion_integration_token"
+  database_id: "your_database_id"
+
+# 微信监听设置
+wechat:
+  listen_keyword: "记账" # 只有包含此关键字才触发
